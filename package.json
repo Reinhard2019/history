@@ -1,0 +1,35 @@
+{
+  "name": "vite-demo",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "web": "rm -rf dist && yarn build && cd dist && git init && git remote add origin git@github.com:Reinhard2019/Reinhard2019.github.io.git && git add . && git commit -m 'init' && git push --set-upstream origin master --force"
+  },
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.9.33",
+    "@chbphone55/classnames": "^2.0.0",
+    "@pika/react": "^16.13.1",
+    "@pika/react-dom": "^16.13.1",
+    "@reinhard2019/cw-calendar-translate": "git+ssh://git@github.com:Reinhard2019/CWCalendarTranslate.git",
+    "@types/react-router-dom": "^5.1.6",
+    "antd": "^4.8.2",
+    "bootstrap-icons": "^1.2.2",
+    "d3": "^6.0.0",
+    "lodash": "^4.17.19",
+    "memoize-one": "^5.1.1",
+    "moment": "^2.29.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^5.7.2",
+    "@types/lodash": "^4.14.161",
+    "@types/react": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^3.7.1",
+    "@typescript-eslint/parser": "^3.7.1",
+    "sass": "^1.26.10",
+    "typescript": "^3.9.7",
+    "vite": "^1.0.0-beta.3",
+    "vite-plugin-react": "^3.0.0"
+  }
+}

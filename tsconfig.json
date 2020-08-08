@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    // "outDir": "./dist/",
+    // "sourceMap": true,
+    "noImplicitAny": true,
+    // "module": "esNext",
+    "target": "es5",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    // "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
+    // "lib": [
+    //   "dom",
+    //   "es2015",
+    //   "es2016"
+    // ],
+    "baseUrl": ".",
+    "paths": {
+      "/@/*": ["src/*"],
+    }
+  },
+  "include": [
+    "./src/**/*",
+    "./script/**/*",
+    "./index.d.ts"
+  ],
+}
